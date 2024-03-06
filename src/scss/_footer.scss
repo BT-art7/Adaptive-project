@@ -1,0 +1,97 @@
+@import "./variables";
+
+.footer{
+    width: 358px;
+    height: 289px;
+    margin: auto;
+    background-color: $black;
+    color: $white;
+    padding-top: 53px;
+    padding-left: 17px;
+    text-align: center;
+}
+  
+.footer__btn-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer__btn{
+    background-color: $black;
+    color: $white;
+    display: flex;
+    width: 342px;
+    height: 72px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 139px;
+    border: 1px solid var(--Gray-6, #F2F2F2);
+    background-image: url(/images/Dawn.svg) ;
+    background-repeat: no-repeat;
+    background-position: 25px;
+    padding-left: 95px;
+    gap: 4px;
+}
+
+.footer__btn{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.footer__btn-book{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: $font-text;
+    font-size: 15px;
+    font-weight: $font-regular;
+    gap: 24px;
+    
+}
+
+.footer__btn-img{
+width: 32.788px;
+}
+
+.footer__btn-have{
+
+text-align: center;
+font-family: $font-title;
+font-size: 20px;
+font-weight: $font-bold;
+}
+
+.footer__social{
+display: flex;
+flex-direction: column;
+margin-top: 113px;
+margin-bottom: 21px;
+
+}
+
+.footer__nav{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 34px;
+}
+
+.footer__nav-link{
+height: 24px;
+width: 24px;
+background-image: url(/images/twitch\ 1.svg) ;
+}
+
+
+.footer__nav-link--twitter{
+    background-image: url(/images/twitter\ 1.svg) ;
+}
+
+.footer__nav-link--insta{
+    background-image: url(/images/instagram\ 1.svg) ;
+}
+
+.footer__nav-link--linkedin{
+    background-image: url(/images/linkedin\ 1.svg) ;
+}

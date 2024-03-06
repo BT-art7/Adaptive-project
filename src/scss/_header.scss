@@ -1,33 +1,64 @@
-@import "./variables"
+@import "./variables";
+
 
 .header {
-
-display: flex;
-background-color: $Linear-gradient;
 width: 375px;
+height: 800px;
+color: $white;
+margin: auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+ }
 
+.header--linear-gradient {
+    background: linear-gradient(253deg, #FFEE32 -13.48%, #D6D6D6 125.48%);
 }
 
-// .header-navbar{
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 17px 0 17px;
+}
 
-// }
+.header-logo-btn {
+height: 56px;
+width: 56px;
+background-image: url(/images/Hope.jpg); 
+border: none;
+}
 
-// .header-navbar__burger{
+.header-navbar__burger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 56px;
+    height: 56px;
+    border-radius: 20px;
+    border: 2px solid #FFF;
+  }
+  
+  .header-navbar__burger-line {
+    width: 24px;
+    height: 2px;
+    background: $white;
+    display: inline-block;
+    border-radius: 20px;
 
-// }
+  }
+  
+  .header-navbar__burger-line--short {
+    width: 18px;
+}
 
-// .header-navbar__list{
+.header-text{
+font-family: $font-title;
+font-size: 48px;
+font-weight: $font-bold;
+width: 326px;
+height: 239px;
+margin: 0 28px 149px 21px;
+}
 
-// }
-
-// .header-navbar__list-item{
-
-// }
-
-// .header-navbar__list-link{
-
-// }
-
-// .header-text{
-
-// }

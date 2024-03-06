@@ -1,0 +1,56 @@
+@import "./variables";
+
+.box-text{
+margin: auto;
+width: 375px;
+height: 466px;
+background-color: $black-text;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+
+}
+
+.box-text__title{
+color: $yellow-text;
+font-family: $font-title;
+font-size: 36px;
+font-weight: $font-bold;
+margin-top: 72px; 
+margin-left: 16px;
+}
+
+.box-text__p{
+color: $white;
+font-family: $font-text;
+font-size: 15px;
+font-weight: $font-regular;
+margin-left: 16px;
+margin-right: 17px;
+}
+
+.stat-wrapper{
+display: flex;
+justify-content: space-between;
+margin-left: 16px;
+margin-bottom: 76px;
+}
+
+.stat-wrapper__item{
+width: 104px;
+}
+
+.stat-wrapper__number{
+color: $white;
+font-family: $font-title;
+font-size: 36px;
+font-weight: $font-bold;
+}
+
+.stat-wrapper__text{
+color: $white;
+font-family: $font-text;
+font-size: 16px;
+font-weight: $font-bold;
+width: 76px;
+}

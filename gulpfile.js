@@ -8,7 +8,6 @@ import clean from "gulp-clean";
 import dartSass from "sass";
 import gulpSass from "gulp-sass";
 const sass = gulpSass(dartSass);
-
 import bsc from "browser-sync";
 const browserSync = bsc.create();
 
