@@ -95,3 +95,55 @@ background-image: url(/images/twitch\ 1.svg) ;
 .footer__nav-link--linkedin{
     background-image: url(/images/linkedin\ 1.svg) ;
 }
+
+
+@media (min-width:768px){
+    .footer{
+width: 768px;
+height: 408px;}
+
+
+.footer__btn-img{
+    width: 55px;
+height: 26px;
+    } 
+
+.footer__btn-have{
+    font-size: 48px;
+}
+
+.footer__btn-book{
+    font-size: 24px;
+    
+}
+
+.footer__btn{
+    width: 714px;
+    height: 150px;
+    padding: 42px 137px;
+    gap: 10px;
+}
+
+}
+
+@media (min-width:1200px){
+    .footer{
+        width: 1440px;
+        height: 530px;
+        padding-top:78px ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        }
+        
+        
+        .footer__btn{
+            width: 914px;
+            height: 192px;
+            text-align: center;
+        }
+
+    
+}

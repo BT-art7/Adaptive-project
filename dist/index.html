@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homework_advance_css_2</title>
+    <title>Adaptive</title>
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -19,9 +19,27 @@
 </header> -->
 
 <header class="header header--linear-gradient">
+
+
+
+ 
+
+  <!-- <div class="menu-wrapper"> -->
     <nav class="header-navbar">
-        <button class="header-logo-btn"></button>
-        <!-- <img src="/src/images/Hope.jpg" alt="#"> -->
+      <button class="header-logo-btn"></button>
+      <!-- <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+        <ul class="header-nav">
+          <li class="header-nav__item"><a href="#">Portfolio</a></li>
+          <li class="header-nav__item"><a href="#">Resume</a></li>
+          <li class="header-nav__item"><a href="#">Testimonials</a></li>
+          <li class="header-nav__item"><a href="#">Contact</a></li>
+      </ul> --> 
+        <!-- <img src="/src/images/Hope.jpg" alt="#">  -->
         <div class="header-navbar__burger">
           <div class="header-navbar__burger-line"></div>
           <div class="header-navbar__burger-line header-navbar__burger-line--short"></div>
@@ -42,10 +60,12 @@
             <a class="header-navbar__list-link" href="#">Contact</a>
           </li>
         </ul> -->
-      </nav>
+       </nav> 
      <h1 class="header-text">Unleash Creativity Through Minimalism.</h1> 
 </header>
 
+
+<!-- Section 1 -->
 <div class="box-text">
 <h2 class="box-text__title">Meet Alex Johnsson</h2>
 <p class="box-text__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
@@ -63,8 +83,15 @@
     <p class="stat-wrapper__text">App Designs</p>
   </article>
   </section>
+
+  <section class="elips-box">
+    <div class="elips"></div>
+    <div class="elips-2"></div>
+  </section>
 </div>
 
+
+<!-- Section 2 -->
 <ul class="box-image">
   <li class="product-card">
     <img src="images/Frame 17.jpg" alt="#" class="product-card__img ">
@@ -72,20 +99,48 @@
     <p class="product-card__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
   </li>
 
-
   <li class="product-card product-card--size">
     <img src="images/Frame 17_2.jpg" alt="#" class="product-card__img product-card__img--save">
     <h3 class="product-card__title product-card__title--font">Save Planet Mobile app</h3>
     <p class="product-card__p product-card__p--font">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p></li>
-  </ul>
+    
+    <li class=" product-card--tablet">
+      <img src="images/Frame 17_1.jpg" alt="#" class="product-card__img product-card__img--tablet">
+      <h3 class="product-card__title product-card__title--tablet">Banking Mobile App</h3>
+      <p class="product-card__p product-card__p--tablet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p></li>
+    
+    <li class=" product-card--desktop">
+        <img src="images/Frame 17_3.jpg" alt="#" class="product-card__img product-card__img--tablet">
+        <h3 class="product-card__title product-card__title--tablet">Banking Mobile App</h3>
+        <p class="product-card__p product-card__p--tablet">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p></li>
+      
+    </ul>
+  
+
+  
+
+
+<!-- Section 3 -->
    <section class="box-design">
     <h3 class="box-design__title">Graphics Design</h3>
 <ul class="box-design__nav">
-  <li><img src="images/unsplash_rqIfy1UyIzE.jpg" alt="#" class="box-design__img box-design__img--first"></li>
-  <li><img src="images/Rectangle 6.jpg" alt="#"  class="box-design__img box-design__img--second"></li>
-  <li><img src="images/Rectangle 7.jpg" alt="#"  class="box-design__img box-design__img--third"></li>
+  <li class="box-design__li box-design__li--upp">
+    <img src="images/unsplash_rqIfy1UyIzE.jpg" alt="#" class="box-design__img box-design__img--first">
+    <span class="box-design__lable box-design__lable--first"><img src="/images/Soft Star.svg" alt="#" class="box-design__lable box-design__lable-img--first"></span>
+  </li>
+  <li class="box-design__li box-design__li--next">
+    <img src="images/Rectangle 6.jpg" alt="#"  class="box-design__img box-design__img--second">
+     <span class="box-design-btn box-design__lable--second"><img src="/images/Butterfly.svg" alt="#" class="box-design-btn box-design__lable-img--second"></span>
+  </li>
+  <li class="box-design__li box-design__li--next-2">
+    <img src="images/Rectangle 7.jpg" alt="#"  class="box-design__img box-design__img--third">
+    <span class="box-design-btn box-design__lable--third"><img src="/images/Asterisk 1.svg" alt="" class="box-design-btn box-design__lable-img--third">#</span>
+  </li>
 </ul>
 </section>
+
+
+<!-- Section 4 -->
 <section class="box-info">
  <p class="box-info__text">“Good design is like a refrigerator - when it works, no one notices, but when it doesn't, it sure stinks.”</p>
 </section>

@@ -3,11 +3,11 @@
 .box-info{
     background-image: url(/images/Rectangle\ 8.jpg);
     background-size: cover ;
-    background-color:#3C3C3C;
+    background-color: #3C3C3C ;
     width: 375px;
     height: 498px;
     margin: auto;
-   
+    background-blend-mode: overlay, color;
 }
 
 .box-info__text{
@@ -17,4 +17,31 @@ font-family: $font-title;
 font-size: 24px;
 font-weight: $font-bold;
 padding: 180px 16px 0 16px;
+}
+
+
+@media (min-width:768px){
+
+    .box-info{
+    width: 767px;
+    height: 800px;  
+    
+    }
+    .box-info__text{
+        font-size: 48px;
+        padding: 274px 31px 0 30px;
+        }
+}
+
+@media (min-width:1200px){
+
+    .box-info{
+        width: 1440px;
+        height: 800px;
+    }
+    .box-info__text{
+        width: 1059px;
+        height: 174px;
+        padding: 303px 191px 0 190px;
+        }
 }

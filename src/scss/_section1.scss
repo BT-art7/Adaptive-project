@@ -8,7 +8,8 @@ background-color: $black-text;
 display: flex;
 justify-content: space-between;
 flex-direction: column;
-
+position: relative;
+overflow: hidden;
 }
 
 .box-text__title{
@@ -54,3 +55,129 @@ font-size: 16px;
 font-weight: $font-bold;
 width: 76px;
 }
+
+
+.elips{
+width: 167.488px;
+height: 319.978px;
+transform: rotate(45deg);
+border-radius: 319.978px;
+border: 1px solid #737373;
+position: absolute;
+top: 12%;
+left: 100%;
+
+
+}
+
+.elips-2{
+    width: 167.488px;
+height: 319.978px;
+transform: rotate(-45deg);
+border-radius: 319.978px;
+border: 1px solid #737373;
+position: absolute;
+top: 12%;
+left: 100%;
+}
+
+@media (min-width:768px) {
+    .box-text {
+        width: 768px;
+        height: 470px;
+        gap: 40px;
+    }
+        
+    .box-text__title{
+        font-size: 48px;
+        width: 768px;
+        height: 470px;
+            }
+
+
+     .stat-wrapper{
+        display: flex;
+        align-items: flex-start;
+        gap: 96px;
+        justify-content: flex-start;
+        margin-left: 33px;
+        margin-bottom: 102px;
+     }
+     .box-text__p{
+        font-size: 16px;
+        margin-left: 33px;
+        margin-right: 211px;
+        }
+
+        .elips{
+            width: 268px;
+            height: 512px;
+            transform: rotate(45deg);
+            border-radius: 512px;
+            top: 12%;
+            left: 85%;
+            }
+
+        .elips-2{
+            width: 268px;
+            height: 512px;
+            transform: rotate(-45deg);
+            border-radius: 512px;
+            top: 12%;
+            left: 85%;
+        }
+
+        .stat-wrapper__text{
+            width: 116px;
+            margin-top: 5px;
+            }
+        
+    }
+
+
+       
+      
+  
+  
+  @media (min-width:1200px) {
+    .box-text {
+        width: 1440px;
+        height: 470px;
+        gap: 40px;
+    }
+     
+        .elips{
+            width: 268px;
+            height: 512px;
+            transform: rotate(45deg);
+            border-radius: 512px;
+            top: 12%;
+            left: 85%;
+            }
+
+        .elips-2{
+            width: 268px;
+            height: 512px;
+            transform: rotate(-45deg);
+            border-radius: 512px;
+            top: 12%;
+            left: 85%;
+        }
+
+        .stat-wrapper{
+            margin-left: 191px;
+            margin-bottom: 311px;
+         }
+        
+         .box-text__p{
+            width: 524px;
+            margin-left: 191px;
+            margin-right: 227px;
+            }
+
+        .box-text__title{
+        margin-left: 191px;
+        margin-top: 101px ;
+                    }
+  }
+  
